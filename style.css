@@ -1,0 +1,26 @@
+.menü {
+    position: relative;
+    background-color: rgb(222, 195, 247);
+}
+
+.menü:hover ul {
+    display: block;
+}
+
+.menü ul {
+    display: none;
+    background-color: rgb(211, 181, 240);
+    position: absolute;
+    top: 4em;
+    left: 0;
+    z-index: -1;
+}
+.menü ul:before {
+    content: "";
+    background-color: rgb(245, 228, 206);
+    height: 4em;
+    width: 100%;
+    position: absolute;
+    top: -4em;
+    left: 0;
+}
